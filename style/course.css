@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 100vh;
+    background: url(../images/our-course.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainly {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    gap: 20px;
+}
+.mainly h1 {
+    color: #ffa806;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.items {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+.items .item {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 123, 0);
+    backdrop-filter: blur(4px);
+    border-radius: 12px;
+    box-shadow: 0px 0px 17px 3px black;
+    padding: 30px 0;
+}
+.items .item h3 {
+    padding-bottom: 10px;
+    color: rgb(33, 144, 0);
+}
+.items .item button {
+    margin-top: 22px;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 17px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    background-color: #ffa806;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.item button:hover {
+    transform: scale(1.1);
+}
+.item button:active {
+    transform: scale(0.7);
+}
+
+.freepik {
+    font-family: cursive;
+    color: #fff;
+    margin-top: 35px;
+    cursor: context-menu;
+}
+.freepik span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ortga-btn {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+.ortga-btn button {
+    width: 130px;
+    padding: 5px 0;
+    font-size: 19px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+    background:#ffa806;
+    color: black;
+    font-weight: 600;
+    border: none;
+    box-shadow: inset 0px 0px 3px 1px black;
+    transition: 0.5s;
+}
+.ortga-btn button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.ortga-btn button:active {
+    transform: scale(0.7);
+}
